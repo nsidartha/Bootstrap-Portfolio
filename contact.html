@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sid's contact information</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Sid Nelakuditi</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="index.html">About </a>
+          <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+          <a class="nav-item nav-link active" href="contact.html">Contact</a
+          ><span class="sr-only">(current)</span>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <div class="well well-sm">
+            <form class="form-horizontal" action="" method="post">
+              <fieldset>
+                <div class="mx-auto" style="width: 300px;">
+                  <section class="mx-auto">
+                    <h1>Contact Me</h1>
+                    <hr />
+                  </section>
+                </div>
+
+                <!-- Name input-->
+                <div class="form-group">
+                  <label
+                    class="col-md-6 col-md-offset-3 control-label"
+                    for="name"
+                    >Name</label
+                  >
+                  <div class="col-md-9">
+                    <input
+                      id="name"
+                      name="name"
+                      type="text"
+                      placeholder="Your name"
+                      class="form-control"
+                    />
+                  </div>
+                </div>
+
+                <!-- Email input-->
+                <div class="form-group">
+                  <label
+                    class="col-md-6 col-md-offset-3 control-label"
+                    for="email"
+                    >Your E-mail</label
+                  >
+                  <div class="col-md-9">
+                    <input
+                      id="email"
+                      name="email"
+                      type="text"
+                      placeholder="Your email"
+                      class="form-control"
+                    />
+                  </div>
+                </div>
+
+                <!-- Message body -->
+                <div class="form-group">
+                  <label
+                    class="ccol-md-6 col-md-offset-3 control-label"
+                    for="message"
+                    >Your message</label
+                  >
+                  <div class="col-md-6 col-md-offset-3">
+                    <textarea
+                      class="form-control"
+                      id="message"
+                      name="message"
+                      placeholder="Enter your message here..."
+                      rows="5"
+                    ></textarea>
+                  </div>
+                </div>
+
+                <!-- Form actions -->
+                <div class="form-group">
+                  <div class="col-md-12 text-right">
+                    <a
+                      class="btn btn-primary btn-lg"
+                      href="mailto:Sid.Nelakuditi@gmail.com"
+                      role="button"
+                      >Submit</a
+                    >
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer mt-auto py-3">
+      <div class="container">
+        <span class="text-muted">© 2019 Copyright.</span>
+      </div>
+    </footer>
+  </body>
+</html>
